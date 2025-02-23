@@ -16,5 +16,7 @@
 
         <button type="submit" name="submit">Login</button>
     </form>
+
+    <p>Belum punya akun? <a href="register.php">Daftar</a></p>
 </body>
 </html>

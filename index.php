@@ -17,7 +17,8 @@ if($_GET['page'] == "register"){
   $data['name'] = $_POST['name'];
   $data['username'] = $_POST['username'];
   $data['password'] = $_POST['password'];
-
+  $data['role'] = $_POST['role'];
+  
   $ctrl->regis($data);
 }elseif ($_GET['page'] == "login_proses") {
   $data['username'] = $_POST['username'];

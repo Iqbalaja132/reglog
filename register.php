@@ -15,9 +15,12 @@
         <input type="text" id="username" name="username" required><br><br>
 
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" required>
+        <input type="text" name="role" id="role" value="user" hidden><br><br>
 
         <button type="submit" name="submit">Register</button>
     </form>
+
+    <p>Sudah punya akun? <a href="login.php">Login</a></p>
 </body>
 </html>
